@@ -1,2 +1,17 @@
-// const FastRefreshCracoPlugin = require('craco-fast-refresh')
-module.exports = {};
+module.exports = {
+  style: {
+    sass: {
+      loaderOptions: {
+        sassOptions: {
+          indentWidth: 4,
+          includePaths: ['absolute/path/a', 'absolute/path/b'],
+        },
+      },
+    },
+  },
+  babel: {
+    presets: [],
+    plugins: [],
+    loaderOptions: {},
+  },
+};
