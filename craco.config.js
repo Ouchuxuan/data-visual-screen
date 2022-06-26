@@ -11,7 +11,20 @@ module.exports = {
   },
   babel: {
     presets: [],
-    plugins: [],
+    plugins: [
+      [
+        'import',
+        {
+          libraryName: 'antd',
+          libraryDirectory: 'es',
+          style: 'css',
+        },
+      ],
+    ],
     loaderOptions: {},
+  },
+  webpack: {
+    alias: {},
+    plugins: [],
   },
 };
