@@ -1,0 +1,15 @@
+@import 'styles/variates.scss';
+.visual-editor-header-layout{
+  height: $editorHeaderHeight;
+  width: 100%;
+  background-color: $visualPanelBg;
+  position: relative;
+  .layer-btn{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    left: 10px;
+    top: 5px;
+  }
+}

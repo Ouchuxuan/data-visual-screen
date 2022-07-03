@@ -1,0 +1,17 @@
+@import 'styles/variates.scss';
+.visual-editor-main-layout{
+  height: calc(100vh - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url(~images/editor-panel-bg.png) center repeat;
+  .editor-panel-layout{
+    flex: 1;
+    height: 100%;
+  }
+  .config-panel-layout{
+    width: 332px;
+    background-color: cornflowerblue;
+    height: 100%;
+  }
+}

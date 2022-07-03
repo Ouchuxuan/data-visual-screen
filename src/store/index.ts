@@ -1,4 +1,5 @@
 import stateSlice from './slices/slice';
+import layoutSlice from './layout/index';
 import { configureStore } from '@reduxjs/toolkit';
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 import logger from 'redux-logger';
@@ -6,6 +7,7 @@ import logger from 'redux-logger';
 const store = configureStore({
   reducer: {
     state: stateSlice,
+    layout: layoutSlice,
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });

@@ -1,0 +1,17 @@
+.components-panel-layout{
+  width: 45px;
+  height: 100%;
+  background-color: antiquewhite;
+  transition: width 0.3s ease;
+
+  .test-button{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  &.panel-expend{
+    width: 324px;
+  }
+}

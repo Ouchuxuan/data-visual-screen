@@ -1,0 +1,9 @@
+.layer-panel-layout {
+  width: 0;
+  height: 100%;
+  background-color: cadetblue;
+  transition: width 0.3s ease;
+  &.panel-expend{
+    width: 200px;
+  }
+}

@@ -16,6 +16,14 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "noImplicitAny": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*":["./*"],
+      "@components/*":["./components/*"],
+      "@utils/*":["./utils/*"],
+      "@styles/*":["./styles/*"],
+      "@store/*":["./store/*"],
+    }
   },
   "include": ["src"]
 }

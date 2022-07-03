@@ -1,12 +1,11 @@
 import React from 'react';
+import VisualEditor from './views/visual-editor';
 import './App.scss';
-
-import { Button } from 'antd';
 
 function App() {
   return (
     <div className='App'>
-      <Button>123</Button>
+      <VisualEditor />
     </div>
   );
 }

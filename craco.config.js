@@ -1,3 +1,9 @@
+const path = require('path');
+
+const resolve = (dir) => {
+  return path.join(__dirname, dir);
+};
+
 module.exports = {
   style: {
     sass: {
@@ -24,7 +30,14 @@ module.exports = {
     loaderOptions: {},
   },
   webpack: {
-    alias: {},
+    alias: {
+      '@': resolve('src'),
+      '@components': resolve('src/components'),
+      '@utils': resolve('src/utils'),
+      '@styles': resolve('src/styles'),
+      '@images': resolve('src/images'),
+      '@store': resolve('src/store'),
+    },
     plugins: [],
   },
 };

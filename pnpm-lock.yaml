@@ -21,6 +21,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.28.0
   antd: ^4.21.3
   babel-plugin-import: ^1.13.5
+  classnames: ^2.3.1
   eslint: ^8.18.0
   eslint-plugin-react: ^7.30.0
   husky: ^8.0.1
@@ -45,6 +46,7 @@ dependencies:
   '@types/react': registry.npmmirror.com/@types/react/18.0.14
   '@types/react-dom': registry.npmmirror.com/@types/react-dom/18.0.5
   antd: registry.npmmirror.com/antd/4.21.3_biqbaboplfbrettd7655fr4n2y
+  classnames: registry.npmmirror.com/classnames/2.3.1
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
   react-redux: registry.npmmirror.com/react-redux/8.0.2_jcbkrypqxz3emsprsw5dchskju
